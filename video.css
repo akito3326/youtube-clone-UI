@@ -1,0 +1,74 @@
+
+        .video-preview{
+            cursor: pointer;
+            border-radius: 27px;
+        }
+        
+        .video-preview:hover{
+                background-color: rgb(241, 217, 217);
+                transition: background-color 0.7s;
+        }
+
+
+        .thumbnail {
+            width: 100%;
+            
+        }
+
+       
+
+
+        .thumbnail-row {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .video-infor-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        .profile-picture {
+            width: 36px;
+            height: 36px;
+            border-radius: 50px;
+        }
+
+        .video-title {
+            margin: 0 0 8px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            color: #0f0f0f;
+            margin-bottom: 11px;
+        }
+
+        .video-channel,
+        .video-stats {
+            margin: 0;
+            color: #606060;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .video-channel {
+            margin-bottom: 5px;
+        }
+
+        .video-grid{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr ;
+            column-gap: 15px;
+            row-gap: 40px;
+        }
+
+        .video-time{
+            background-color: #0f0f0f;
+            border-radius: 1px;
+            position: absolute;
+            color: aliceblue;
+            right: 10px; 
+            bottom: 10px;
+            border-radius: 3px;
+            opacity: 0.8;
+        }

@@ -1,0 +1,102 @@
+.sidebar{
+    position: fixed; 
+    top: 65px;left: 0px; 
+    bottom: 0px; width: 73px;
+    z-index: 100;
+    border-right: 2px solid #eeeeee;
+}
+
+.sidebar-link{
+    background-color: rgb(255, 253, 252);
+    height: 101.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+.sidebar-link.home{
+    position: relative;
+}
+
+.text-home{
+    position: absolute;
+    bottom:20px;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+
+.sidebar-link.explore{
+    position: relative;
+}
+
+.text-explore{
+    position: absolute;
+    bottom:20px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.sidebar-link.subscriptions{
+    position: relative;
+}
+
+.text-subscriptions{
+    position: absolute;
+    font-size: 10px;
+    bottom: 20px;
+    font-weight: 500;
+}
+
+.sidebar-link.original{
+    position: relative;
+}
+
+.text-original{
+    position: absolute;
+    bottom: 20px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.sidebar-link.music{
+    position: relative;
+}
+
+.music-icon{
+    object-fit: contain;
+}
+
+.text-music{
+position: absolute;
+bottom: 20px;
+font-size: 10px;
+font-weight: 500;
+}
+
+.sidebar-link.library{
+    position: relative;
+}
+
+.text-library{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 500;
+    bottom: 20px;
+}
+
+.sidebar-youtube-logo{
+    height: 25px;
+    width: 25px;
+}
+
+.music-icon{
+height: 25px;
+width: 25px;
+}
